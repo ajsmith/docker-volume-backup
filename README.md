@@ -1,6 +1,6 @@
 # docker-volume-backup
 
-A very simple way to back up volumes from Docker containers.
+A simple backup tool for backing up volumes from Docker containers.
 
 When I say simple, I mean it. For now, this is basically just a Fedora image
 with tar installed. In the future, I may add helper scripts, and container
