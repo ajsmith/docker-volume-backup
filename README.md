@@ -2,8 +2,12 @@
 
 A very simple way to back up volumes from Docker containers.
 
-When I say simple, I mean it. This is basically just a Docker image with tar
-installed. If you have more sophisticated backup needs, look elsewhere.
+When I say simple, I mean it. For now, this is basically just a Fedora image
+with tar installed. In the future, I may add helper scripts, and container
+introspection, and some form of automation to make the backup process less
+manual.
+
+But for now, if you have more sophisticated backup needs, look elsewhere.
 
 # Building
 
