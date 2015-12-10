@@ -22,7 +22,7 @@ $ docker build -t volume-backup .
 To back up a volume, run:
 
 ```.shell
-$ docker run -i --rm --volumes-from=my-container volume-backup /path/to/volume > my-backup.tar.gz
+$ docker run -i --rm --volumes-from=my-container volume-backup tar cz /path/to/volume > my-backup.tar.gz
 ```
 
 Replace `my-container` and `my-backup` with the appropriate container
